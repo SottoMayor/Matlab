@@ -1,9 +1,0 @@
-matrixA = [1 2 3; 4 3 2; 9 8 7];
-
-% We can figure out informations about unique elements of the matrixA
-[ sortedMatrix, indexes, indexes_matrix ] = unique(matrixA);
-disp(sortedMatrix); % The matrixA sorted by the elements (asc order)
-disp(indexes); % Non repeated indexes which each elements be found
-disp(indexes_matrix); % All indexes (including repeated indexes) which each elements be found
-
-% We can use uniq
