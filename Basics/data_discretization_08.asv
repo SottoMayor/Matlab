@@ -1,8 +1,0 @@
-% This is all about use the discretize function
-
-data = [1 1 2 3 6 5 8 10 4 4];
-
-% Basically, we are getting de discretized data and the bins intervals
-% identicaly distribuited, in this example...
-% bin 
-[ dataDiscretized, bins ] = discretize(data, 3);
